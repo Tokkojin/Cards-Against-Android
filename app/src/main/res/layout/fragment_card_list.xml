@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="lelee.cardsaganistandroid.PlayerHand"
+    android:background="#22CC00">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[insert white card here]"
+                android:textSize="35sp"
+                android:id="@+id/textView1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[insert white card here]"
+                android:textSize="35sp"
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[insert white card here]"
+                android:textSize="35sp"
+                android:id="@+id/textView3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[insert white card here]"
+                android:textSize="35sp"
+                android:id="@+id/textView4" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[insert white card here]"
+                android:textSize="35sp"
+                android:id="@+id/textView5" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[insert white card here]"
+                android:textSize="35sp"
+                android:id="@+id/textView6" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[insert white card here]"
+                android:textSize="35sp"
+                android:id="@+id/textView7" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New CheckBox"
+        android:id="@+id/checkBox"
+        android:layout_gravity="left|bottom" />
+</FrameLayout>
